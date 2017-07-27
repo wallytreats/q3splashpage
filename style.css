@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+.nav {
+  height: 40px;
+  left: 0;
+  right: 0;
+  background-color: #1fe4ad;
+  font-family: 'Oswald', sans-serif; }
+  .nav h1 {
+    color: white;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #1c92d2, #f2fcfe 50%, #f2fcfe);
+    background-size: 200% 100%;
+    background-position-x: 100%; }
+  .nav h1:hover {
+    transition: all 5s cubic-bezier(0, 0, 0.23, 1);
+    background-position-x: 0%; }
+
+.landing {
+  position: relative;
+  width: 100vw;
+  height: 700px;
+  padding-top: 30px;
+  background-image: linear-gradient(to bottom, #37a4e5 0%, #b9e3c6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; }
+  .landing .logo img {
+    width: 200px;
+    height: 275px; }
+  .landing .name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    position: relative;
+    bottom: 0;
+    animation: name 5s linear forwards; }
+    .landing .name h1 {
+      color: white;
+      text-decoration: none;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(to right, #1c92d2, #f2fcfe 65%, #f2fcfe);
+      background-size: 200% 100%;
+      background-position-x: 100%;
+      animation: waves 4s linear infinite alternate; }
+
+@keyframes waves {
+  0% {
+    background-position-x: 0%; }
+  100% {
+    background-position-x: 100%; } }
+.drop {
+  animation: drop 5s linear forwards; }
+
+.fade {
+  animation: fade 400ms linear forwards; }
+
+@keyframes name {
+  0% {
+    transform: translateY(500px);
+    opacity: .3; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
+@keyframes drop {
+  0% {
+    transform: translateY(-500px); }
+  100% {
+    transform: translateY(800px); } }
+@keyframes fade {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } }
+.space {
+  height: 30px;
+  left: 0;
+  right: 0;
+  background-color: #c7c9cc; }
+
+section {
+  height: 800px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row; }
+  section .app {
+    height: 800px;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    section .app .phone {
+      width: 214px;
+      height: 415px;
+      border-top: 20px solid black;
+      border-bottom: 20px solid black;
+      border-left: 7px solid black;
+      border-right: 7px solid black;
+      border-radius: 5%; }
+      section .app .phone img {
+        width: 200px;
+        height: 375px;
+        filter: brightness(110%); }
+    section .app .about {
+      font-family: 'Source Sans Pro', sans-serif;
+      width: 65%;
+      text-align: center; }
+      section .app .about h3 {
+        font-size: 1.6em; }
+      section .app .about p {
+        font-size: .8em; }
+  section .facts {
+    height: 800px;
+    width: 45vw;
+    border-left: 2px solid grey;
+    overflow: scroll; }
+    section .facts .fact {
+      width: 100%;
+      height: 500px;
+      border-top: 5px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      section .facts .fact .fact-text {
+        width: 65%;
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+        color: white;
+        text-shadow: 3px 6px 10px rgba(0, 0, 0, 0.9); }
+        section .facts .fact .fact-text h3 {
+          font-size: 1.5em; }
+
+.fact-1 {
+  background-image: url("resources/mj.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.fact-2 {
+  background-image: url("resources/bikerider.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+.fact-3 {
+  background-image: url("resources/waterAid.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+footer {
+  height: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1fe4ad; }
+
+/*# sourceMappingURL=style.css.map */
