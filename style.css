@@ -16,6 +16,8 @@ html, body {
   background-color: #1fe4ad;
   font-family: 'Oswald', sans-serif; }
   .nav h1 {
+    margin-top: 0;
+    margin-bottom: 0;
     color: white;
     text-decoration: none;
     -webkit-background-clip: text;
