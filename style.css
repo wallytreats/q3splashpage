@@ -13,6 +13,7 @@ html, body {
   height: 40px;
   left: 0;
   right: 0;
+  padding-left: 50px;
   background-color: #1fe4ad;
   font-family: 'Oswald', sans-serif; }
   .nav h1 {
