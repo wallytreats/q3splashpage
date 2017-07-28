@@ -12,15 +12,16 @@ html, body{
 }
 
 .nav{
-  height: 40px;
+  height: 55px;
   left: 0;
   right: 0;
+  padding-top: 10px;
   padding-left: 50px;
   background-color: #1fe4ad;
   font-family: 'Oswald', sans-serif;
   h1{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     color: white;
     text-decoration: none;
     -webkit-background-clip: text;
