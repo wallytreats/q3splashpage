@@ -92,7 +92,7 @@ html, body {
   height: 30px;
   left: 0;
   right: 0;
-  background-color: #c7c9cc; }
+  background-image: linear-gradient(to bottom, #7a7675 0%, #999594 45%, #999594 53%, #7a7675 100%); }
 
 section {
   height: 800px;
